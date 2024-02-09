@@ -39,7 +39,7 @@ public class MainFrame extends javax.swing.JFrame {
 
         Splitt.setOrientation(javax.swing.JSplitPane.VERTICAL_SPLIT);
 
-        top.setBackground(new java.awt.Color(204, 204, 204));
+        top.setBackground(new java.awt.Color(255, 204, 204));
 
         BtnAccMngr.setBackground(new java.awt.Color(255, 153, 153));
         BtnAccMngr.setText("Account Manager");
@@ -68,7 +68,7 @@ public class MainFrame extends javax.swing.JFrame {
 
         Splitt.setLeftComponent(top);
 
-        cardlayout.setBackground(new java.awt.Color(255, 255, 255));
+        cardlayout.setBackground(new java.awt.Color(204, 204, 204));
         cardlayout.setLayout(new java.awt.CardLayout());
         Splitt.setRightComponent(cardlayout);
 
@@ -76,7 +76,7 @@ public class MainFrame extends javax.swing.JFrame {
         getContentPane().setLayout(layout);
         layout.setHorizontalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addComponent(Splitt, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.DEFAULT_SIZE, 688, Short.MAX_VALUE)
+            .addComponent(Splitt, javax.swing.GroupLayout.Alignment.TRAILING)
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
