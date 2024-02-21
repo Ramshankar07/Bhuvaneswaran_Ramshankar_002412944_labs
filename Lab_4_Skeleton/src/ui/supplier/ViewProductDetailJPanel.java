@@ -276,7 +276,7 @@ public class ViewProductDetailJPanel extends javax.swing.JPanel {
 
     public void refreshTable() {
         DefaultTableModel model = (DefaultTableModel) tblFeatures.getModel();
-        model.setRowCount(2);
+        model.setRowCount(0);
         for (Feature f : product.getFeatures()) {
             Object row[] = new Object[2];
             row[0] = f;
