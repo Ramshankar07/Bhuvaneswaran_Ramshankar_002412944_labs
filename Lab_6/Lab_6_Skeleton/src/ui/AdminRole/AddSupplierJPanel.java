@@ -42,7 +42,7 @@ public class AddSupplierJPanel extends javax.swing.JPanel {
         btnAdd = new javax.swing.JButton();
         btnBack = new javax.swing.JButton();
 
-        setBackground(new java.awt.Color(204, 204, 255));
+        setBackground(new java.awt.Color(255, 255, 255));
         setForeground(new java.awt.Color(102, 0, 0));
 
         lblTitle.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N

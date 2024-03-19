@@ -46,7 +46,7 @@ public class ManageSuppliersJPanel extends javax.swing.JPanel {
         btnAddSupplier = new javax.swing.JButton();
         lblTitle = new javax.swing.JLabel();
 
-        setBackground(new java.awt.Color(204, 204, 255));
+        setBackground(new java.awt.Color(255, 204, 204));
 
         jScrollPane1.setBackground(new java.awt.Color(204, 255, 204));
 

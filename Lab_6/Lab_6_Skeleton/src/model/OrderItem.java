@@ -6,7 +6,7 @@ package model;
 
 /**
  *
- * @author mithravardhan
+ * @author Ram
  */
 public class OrderItem {
     

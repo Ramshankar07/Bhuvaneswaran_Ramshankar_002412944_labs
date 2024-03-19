@@ -52,7 +52,7 @@ public class ViewProductDetailJPanel extends javax.swing.JPanel {
         jLabel6 = new javax.swing.JLabel();
         txtAvail = new javax.swing.JTextField();
 
-        setBackground(new java.awt.Color(204, 204, 255));
+        setBackground(new java.awt.Color(204, 255, 255));
         setForeground(new java.awt.Color(102, 0, 0));
         setPreferredSize(new java.awt.Dimension(650, 600));
 
@@ -64,13 +64,13 @@ public class ViewProductDetailJPanel extends javax.swing.JPanel {
         jLabel2.setText("Product Name:");
 
         txtProdName.setEditable(false);
-        txtProdName.setBackground(new java.awt.Color(204, 255, 204));
+        txtProdName.setBackground(new java.awt.Color(255, 255, 255));
 
         jLabel3.setForeground(new java.awt.Color(102, 0, 0));
         jLabel3.setText("Price:");
 
         txtPrice.setEditable(false);
-        txtPrice.setBackground(new java.awt.Color(204, 255, 204));
+        txtPrice.setBackground(new java.awt.Color(255, 255, 255));
 
         backButton1.setBackground(new java.awt.Color(204, 255, 204));
         backButton1.setForeground(new java.awt.Color(102, 0, 0));
@@ -82,7 +82,7 @@ public class ViewProductDetailJPanel extends javax.swing.JPanel {
         });
 
         txtId.setEditable(false);
-        txtId.setBackground(new java.awt.Color(204, 255, 204));
+        txtId.setBackground(new java.awt.Color(255, 255, 255));
 
         jLabel5.setForeground(new java.awt.Color(102, 0, 0));
         jLabel5.setText("Product ID:");
@@ -91,7 +91,7 @@ public class ViewProductDetailJPanel extends javax.swing.JPanel {
         jLabel6.setText("Availability:");
 
         txtAvail.setEditable(false);
-        txtAvail.setBackground(new java.awt.Color(204, 255, 204));
+        txtAvail.setBackground(new java.awt.Color(255, 255, 255));
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(this);
         this.setLayout(layout);

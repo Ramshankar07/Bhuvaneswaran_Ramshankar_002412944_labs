@@ -3,7 +3,7 @@
 <Form version="1.5" maxVersion="1.5" type="org.netbeans.modules.form.forminfo.JPanelFormInfo">
   <Properties>
     <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
-      <Color blue="ff" green="cc" red="cc" type="rgb"/>
+      <Color blue="ff" green="ff" red="cc" type="rgb"/>
     </Property>
     <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
       <Color blue="0" green="0" red="66" type="rgb"/>
@@ -41,8 +41,22 @@
                           <EmptySpace type="separate" max="-2" attributes="0"/>
                           <Component id="btnSearchProduct" min="-2" max="-2" attributes="0"/>
                       </Group>
-                      <Group type="102" attributes="0">
-                          <Component id="lblSalesPrice" min="-2" max="-2" attributes="0"/>
+                      <Component id="jScrollPane1" pref="590" max="32767" attributes="0"/>
+                      <Component id="jScrollPane2" alignment="0" max="32767" attributes="0"/>
+                      <Group type="102" alignment="1" attributes="0">
+                          <Component id="txtNewQuantity" min="-2" pref="70" max="-2" attributes="0"/>
+                          <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                          <Component id="btnModifyQuantity" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace max="32767" attributes="0"/>
+                          <Component id="btnViewOrderItem" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                          <Component id="btnRemoveOrderItem" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <Group type="102" alignment="0" attributes="0">
+                          <Group type="103" groupAlignment="1" max="-2" attributes="0">
+                              <Component id="lblItemsInCart" alignment="0" max="32767" attributes="0"/>
+                              <Component id="lblSalesPrice" alignment="0" max="32767" attributes="0"/>
+                          </Group>
                           <EmptySpace max="-2" attributes="0"/>
                           <Component id="txtSalesPrice" linkSize="1" min="-2" pref="55" max="-2" attributes="0"/>
                           <EmptySpace type="separate" max="-2" attributes="0"/>
@@ -54,18 +68,6 @@
                           <EmptySpace max="-2" attributes="0"/>
                           <Component id="btnProductDetails" min="-2" pref="165" max="-2" attributes="0"/>
                       </Group>
-                      <Component id="jScrollPane1" pref="590" max="32767" attributes="0"/>
-                      <Component id="lblItemsInCart" alignment="0" min="-2" max="-2" attributes="0"/>
-                      <Component id="jScrollPane2" alignment="0" max="32767" attributes="0"/>
-                      <Group type="102" alignment="1" attributes="0">
-                          <Component id="btnModifyQuantity" min="-2" max="-2" attributes="0"/>
-                          <EmptySpace type="unrelated" max="-2" attributes="0"/>
-                          <Component id="txtNewQuantity" min="-2" pref="70" max="-2" attributes="0"/>
-                          <EmptySpace max="32767" attributes="0"/>
-                          <Component id="btnViewOrderItem" min="-2" max="-2" attributes="0"/>
-                          <EmptySpace type="unrelated" max="-2" attributes="0"/>
-                          <Component id="btnRemoveOrderItem" min="-2" max="-2" attributes="0"/>
-                      </Group>
                   </Group>
                   <Group type="102" alignment="1" attributes="0">
                       <Component id="btnBack" min="-2" pref="90" max="-2" attributes="0"/>
@@ -74,7 +76,7 @@
                   </Group>
                   <Component id="btnCheckOut" alignment="1" min="-2" pref="177" max="-2" attributes="0"/>
               </Group>
-              <EmptySpace pref="30" max="32767" attributes="0"/>
+              <EmptySpace pref="20" max="32767" attributes="0"/>
           </Group>
       </Group>
     </DimensionLayout>
@@ -114,12 +116,12 @@
               <Group type="103" groupAlignment="3" attributes="0">
                   <Component id="btnViewOrderItem" alignment="3" min="-2" max="-2" attributes="0"/>
                   <Component id="btnRemoveOrderItem" alignment="3" min="-2" max="-2" attributes="0"/>
-                  <Component id="btnModifyQuantity" alignment="3" min="-2" max="-2" attributes="0"/>
                   <Component id="txtNewQuantity" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="btnModifyQuantity" alignment="3" min="-2" max="-2" attributes="0"/>
               </Group>
               <EmptySpace type="separate" max="-2" attributes="0"/>
               <Component id="btnCheckOut" min="-2" max="-2" attributes="0"/>
-              <EmptySpace pref="40" max="32767" attributes="0"/>
+              <EmptySpace pref="33" max="32767" attributes="0"/>
           </Group>
       </Group>
     </DimensionLayout>
@@ -169,9 +171,6 @@
     </Component>
     <Component class="javax.swing.JComboBox" name="cmbSupplier">
       <Properties>
-        <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
-          <Color blue="cc" green="ff" red="cc" type="rgb"/>
-        </Property>
         <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
           <StringArray count="0"/>
         </Property>
@@ -181,11 +180,6 @@
       </Events>
     </Component>
     <Component class="javax.swing.JTextField" name="txtSearch">
-      <Properties>
-        <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
-          <Color blue="cc" green="ff" red="cc" type="rgb"/>
-        </Property>
-      </Properties>
     </Component>
     <Component class="javax.swing.JButton" name="btnSearchProduct">
       <Properties>
@@ -219,10 +213,10 @@
         <Component class="javax.swing.JTable" name="tblProductCatalog">
           <Properties>
             <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
-              <Color blue="cc" green="ff" red="cc" type="rgb"/>
+              <Color blue="cc" green="cc" red="cc" type="rgb"/>
             </Property>
             <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
-              <Font name="Lucida Grande" size="13" style="0"/>
+              <Font name="Lucida Grande" size="12" style="0"/>
             </Property>
             <Property name="model" type="javax.swing.table.TableModel" editor="org.netbeans.modules.form.editors2.TableModelEditor">
               <Table columnCount="4" rowCount="4">
@@ -272,11 +266,6 @@
       </Properties>
     </Component>
     <Component class="javax.swing.JTextField" name="txtSalesPrice">
-      <Properties>
-        <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
-          <Color blue="cc" green="ff" red="cc" type="rgb"/>
-        </Property>
-      </Properties>
     </Component>
     <Component class="javax.swing.JLabel" name="lblQuantity">
       <Properties>
@@ -323,7 +312,10 @@
     </Component>
     <Component class="javax.swing.JLabel" name="lblItemsInCart">
       <Properties>
-        <Property name="text" type="java.lang.String" value="Items in cart:"/>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Segoe UI" size="18" style="1"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="Cart:"/>
       </Properties>
     </Component>
     <Container class="javax.swing.JScrollPane" name="jScrollPane2">
@@ -336,7 +328,7 @@
         <Component class="javax.swing.JTable" name="tblCart">
           <Properties>
             <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
-              <Color blue="cc" green="ff" red="cc" type="rgb"/>
+              <Color blue="cc" green="cc" red="cc" type="rgb"/>
             </Property>
             <Property name="model" type="javax.swing.table.TableModel" editor="org.netbeans.modules.form.editors2.TableModelEditor">
               <Table columnCount="4" rowCount="4">
@@ -378,11 +370,6 @@
       </SubComponents>
     </Container>
     <Component class="javax.swing.JTextField" name="txtNewQuantity">
-      <Properties>
-        <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
-          <Color blue="cc" green="ff" red="cc" type="rgb"/>
-        </Property>
-      </Properties>
     </Component>
     <Component class="javax.swing.JButton" name="btnModifyQuantity">
       <Properties>

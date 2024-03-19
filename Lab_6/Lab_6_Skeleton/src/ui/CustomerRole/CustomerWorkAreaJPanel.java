@@ -46,7 +46,7 @@ public class CustomerWorkAreaJPanel extends javax.swing.JPanel {
         lblTitle = new javax.swing.JLabel();
         btnBrowseCatalog = new javax.swing.JButton();
 
-        setBackground(new java.awt.Color(204, 204, 255));
+        setBackground(new java.awt.Color(204, 255, 255));
 
         lblTitle.setBackground(new java.awt.Color(0, 0, 0));
         lblTitle.setFont(new java.awt.Font("Lucida Grande", 1, 24)); // NOI18N

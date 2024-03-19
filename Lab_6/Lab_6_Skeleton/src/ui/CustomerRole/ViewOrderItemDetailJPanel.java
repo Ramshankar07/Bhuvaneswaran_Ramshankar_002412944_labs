@@ -56,7 +56,7 @@ public class ViewOrderItemDetailJPanel extends javax.swing.JPanel {
         lblTotal = new javax.swing.JLabel();
         txtTotal = new javax.swing.JTextField();
 
-        setBackground(new java.awt.Color(204, 204, 255));
+        setBackground(new java.awt.Color(204, 255, 255));
         setPreferredSize(new java.awt.Dimension(650, 600));
 
         lblTitle.setFont(new java.awt.Font("Lucida Grande", 0, 18)); // NOI18N
@@ -76,35 +76,40 @@ public class ViewOrderItemDetailJPanel extends javax.swing.JPanel {
         lblProductName.setText("Product Name:");
 
         txtProductName.setEditable(false);
-        txtProductName.setBackground(new java.awt.Color(204, 255, 204));
+        txtProductName.setBackground(new java.awt.Color(255, 255, 255));
         txtProductName.setForeground(new java.awt.Color(102, 0, 0));
 
         lblProductId.setForeground(new java.awt.Color(102, 0, 0));
         lblProductId.setText("Product ID:");
 
         txtProductId.setEditable(false);
-        txtProductId.setBackground(new java.awt.Color(204, 255, 204));
+        txtProductId.setBackground(new java.awt.Color(255, 255, 255));
         txtProductId.setForeground(new java.awt.Color(102, 0, 0));
+        txtProductId.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                txtProductIdActionPerformed(evt);
+            }
+        });
 
         lblPrice.setForeground(new java.awt.Color(102, 0, 0));
         lblPrice.setText("Sales Price:");
 
         txtSalesPrice.setEditable(false);
-        txtSalesPrice.setBackground(new java.awt.Color(204, 255, 204));
+        txtSalesPrice.setBackground(new java.awt.Color(255, 255, 255));
         txtSalesPrice.setForeground(new java.awt.Color(102, 0, 0));
 
         lblQuantity.setForeground(new java.awt.Color(102, 0, 0));
         lblQuantity.setText("Quantity:");
 
         txtQuantity.setEditable(false);
-        txtQuantity.setBackground(new java.awt.Color(204, 255, 204));
+        txtQuantity.setBackground(new java.awt.Color(255, 255, 255));
         txtQuantity.setForeground(new java.awt.Color(102, 0, 0));
 
         lblTotal.setForeground(new java.awt.Color(102, 0, 0));
         lblTotal.setText("Total:");
 
         txtTotal.setEditable(false);
-        txtTotal.setBackground(new java.awt.Color(204, 255, 204));
+        txtTotal.setBackground(new java.awt.Color(255, 255, 255));
         txtTotal.setForeground(new java.awt.Color(102, 0, 0));
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(this);
@@ -179,6 +184,10 @@ public class ViewOrderItemDetailJPanel extends javax.swing.JPanel {
         CardLayout layout = (CardLayout) userProcessContainer.getLayout();
         layout.previous(userProcessContainer);
     }//GEN-LAST:event_btnBackActionPerformed
+
+    private void txtProductIdActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_txtProductIdActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_txtProductIdActionPerformed
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JButton btnBack;
